@@ -4,33 +4,34 @@ import './Home.css'
 function Home() {
   return (
     <div>
+                {/*HERO SECTION*/}
       <section className='hero-section mt-2'>
-        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+        {<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" className="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
           </div>
+
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="src\assets\banner.webp" className="d-block w-100" alt="..." />
+              <img src="src\assets\hero1.jpeg" className="d-block w-100" alt-height="auto" />
+
             </div>
             <div className="carousel-item">
-              <img src="src\assets\hero2.jpg" className="d-block w-100" alt="..." />
+              <img src="src\assets\hero02.jpeg" className="d-block w-100" alt="..." />
             </div>
-            {/* <div className="carousel-item">
-          <img src="https://media.istockphoto.com/id/1192643098/photo/hacker-with-laptop-in-night-city-network.jpg?s=612x612&w=0&k=20&c=5gYjwafU_NOj3ViMfWbfy2NExAbMJMzsVV_eMRQ7HTY=" className="d-block w-100" alt="..."/>
-  </div> */}
+            <div className="carousel-item">
+              <img src="src\assets\hero3.jpeg" className="d-block w-100" alt="..." />
+            </div>
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
+        </div>}
       </section>
+
+               {/* SELECT YOUR GOAL */}
+
+               
+               {/*  FEATURE POST */}
       <section className='featured-post container'>
         <h3 className='text-center text-uppercase pt-4'>FEATURED POSTS</h3>
         <div className='row'>
@@ -72,6 +73,7 @@ function Home() {
           </div>
         </div>
       </section>
+               {/* LATEST POST*/}
       <section className='featured-post container'>
         <h3 className='text-center text-uppercase pt-4'>LATEST POSTS</h3>
         <div className='row'>
@@ -113,6 +115,7 @@ function Home() {
           </div>
         </div>
       </section>
+                {/* SPACE SECTION*/}
       <section className='container-fluid bg-primary bg-gradient mt-4' style={{ minHight: "150px" }}>
         <div className='d-flex flex-column justify-content-center align-items-center'>
           <i class="fs-1 text-warning my-3  fa-solid fa-location-dot"></i>
@@ -120,6 +123,7 @@ function Home() {
           <button className='btn btn-warning my-2 text-dark text-uppercase'>View All Posts</button>
         </div>
       </section>
+                 {/*PORTFOLIO*/}
       <section className='featured-post container'>
         <h3 className='text-center text-uppercase py-4'>OUR PORTFOLIO</h3>
         <div className="container">
@@ -147,6 +151,7 @@ function Home() {
           </div>
         </div>
       </section>
+               {/*TESTIMONIALS*/}
       <section className="testimonials">
         <h3 className='text-center text-uppercase py-4'>TESTIMONIALS</h3>
         <section>

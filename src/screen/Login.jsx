@@ -21,11 +21,12 @@ const Login = () => {
               <div className="card-body p-4 p-lg-5 text-black">
                 <form>
                   <div className="d-flex align-items-center mb-3 pb-1">
-                    <i
-                      className="fas fa-cubes fa-2x me-3"
-                      style={{ color: "#ff6219" }}
+                   <img 
+                   src='src\assets\logo.png'
+                   alt='login logo'
+                   className='img-fluid'
                     />
-                    <span className="h1 fw-bold mb-0">Self Storage</span>
+                   {/* <span className="h1 fw-bold mb-0">Search My College</span> */}
                   </div>
                   <h5
                     className="fw-normal mb-3 pb-3"

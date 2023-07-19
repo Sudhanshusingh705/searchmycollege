@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import '../screen/Home.css';
 
 function Navbar() {
   return (
     <div>
       <div>
         {/* logo section */}
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <button
               className="navbar-toggler"
@@ -34,39 +35,39 @@ function Navbar() {
               {/* Left links */}
 
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <NavLink className="nav-link  text-uppercase" to="/">
+                <li className="nav-item" font-size="14px">
+                  <NavLink className="nav-link" to="/">
                     Top Colleges{" "}
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link  text-uppercase" to="login">
+                  <NavLink className="nav-link" to="login">
                     Top Courses{" "}
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link  text-uppercase" to="about">
+                  <NavLink className="nav-link" to="about">
                     Exams{" "}
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link  text-uppercase" to="contact">
+                  <NavLink className="nav-link" to="contact">
                     Study Abroad
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link  text-uppercase" to="contact">
+                  <NavLink className="nav-link" to="contact">
                     Addmission
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link  text-uppercase" to="contact">
+                  <NavLink className="nav-link" to="contact">
                     News/Blogs
                   </NavLink>
                 </li>
                 <div className="dropdown">
                   <a
-                    className="btn btn-primary dropdown-toggle"
+                    className="btn btn-dark dropdown-toggle"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -121,13 +122,13 @@ function Navbar() {
               <form className="d-flex">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <NavLink className="nav-link  text-uppercase" to="/">
+                    <NavLink className="nav-link" to="/login">
                       Login👤{" "}
                     </NavLink>
                   </li>
                   <br />
                   <li className="nav-item">
-                    <NavLink className="nav-link  text-uppercase" to="/">
+                    <NavLink className="nav-link" to="/download">
                       Downloads📱{" "}
                     </NavLink>
                   </li>

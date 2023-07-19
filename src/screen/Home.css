@@ -1,4 +1,31 @@
 .hero-section img{
-    max-height: 330px;
+    max-height: 390px;
+    margin-top: -40px;
+    width: 100%;
+    object-fit: cover;
+    /* height: 250px; */
+    
 }
 
+.search-bar-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.nav-item{
+    font-size: 14px;
+  }
+
+
+.btn{
+    font-size: 14px;
+}  
+
+.hero-section{
+    background-size: cover;
+    background-position: center ;
+    color: #333333;
+    background-color: #000000;
+}
