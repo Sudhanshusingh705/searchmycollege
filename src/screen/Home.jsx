@@ -5,8 +5,8 @@ function Home() {
   return (
     <div>
                 {/*HERO SECTION*/}
-      <section className='hero-section mt-2'>
-        {<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+      <section className='hero-section'>
+        {<div id="carouselExampleIndicators" className="carousel autoplay" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
@@ -14,14 +14,24 @@ function Home() {
           </div>
 
           <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src="src\assets\hero1.jpeg" className="d-block w-100" alt-height="auto" />
+            <div className="carousel-item active" id="hero-1">
+              {/*<img src="src\assets\hero1.jpeg" className="d-block w-100" alt-height="auto" />*/}
+                  
+                    <h1 class="search-container-heading">Hello This is Sudhanshu Singh</h1>
+                    <li class="search-container">
+                      <input type="text" placeholder="Search..."/>
+                      <button>Search</button>
+                    </li>
+                  
+
+
+
 
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item" id = "hero-2">
               <img src="src\assets\hero02.jpeg" className="d-block w-100" alt="..." />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item" id= "hero-3">
               <img src="src\assets\hero3.jpeg" className="d-block w-100" alt="..." />
             </div>
           </div>

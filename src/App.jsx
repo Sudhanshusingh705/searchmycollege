@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar></Navbar>
+      <Navbar></Navbar>
         <Routes>
           <Route excat path="/" element={<Home />} > </Route>
           <Route exact path="/about" element={<About />} > </Route>

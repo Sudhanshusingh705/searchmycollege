@@ -7,6 +7,64 @@
     
 }
 
+#hero-1{
+  background-image: url("../assets/hero1.jpeg");
+}
+
+.search-container-heading{
+  padding-top: 150px;
+  display: flex;
+  width:100%;
+  max-width: 100%;
+  align-items: center;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-direction: reverse; 
+}
+
+.search-container {
+  display: flex;
+  width:100%;
+  max-width: 100%;
+  align-items: center;
+  margin-left: auto;
+  white-space: nowrap;
+  padding-bottom: 150px;
+  
+}
+
+.search-container input[type="text"] {
+  padding-left: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-left: 3%;
+  width: 100%;
+  max-width:90%;
+}
+
+.search-container button {
+  padding: 6px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
 .search-bar-container {
     position: absolute;
     top: 50%;
